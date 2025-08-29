@@ -6,9 +6,13 @@ name: CI for Python
   pull_request:
     branches:
       - main
+permissions:
+  contents:read
 jobs:
   build:
     runs-on: ubuntu_latest
+    permissions:
+     checks:write
     steps:
       - name: checout code
         uses: actions/checkout@v3
