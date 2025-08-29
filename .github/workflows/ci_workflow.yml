@@ -7,12 +7,12 @@ name: CI for Python
     branches:
       - main
 permissions:
-  contents:read
+  contents: read
 jobs:
   build:
     runs-on: ubuntu_latest
     permissions:
-     checks:write
+     checks: write
     steps:
       - name: checout code
         uses: actions/checkout@v3
