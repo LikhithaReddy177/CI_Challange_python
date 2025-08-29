@@ -11,4 +11,4 @@ def test_pandas_version():
 
 if __name__ == "__main__":
     test_pandas_version()
-    print("Pandas version is correct!"
+    print("Pandas version is correct!")
